@@ -4,7 +4,7 @@
     android:layout_height="match_parent" >
 
     <Button
-        android:id="@+id/Raid"
+        android:id="@+id/raid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -13,7 +13,7 @@
         android:text="@string/raid" />
 
     <Button
-        android:id="@+id/Istanze"
+        android:id="@+id/istanze"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Raid"
@@ -23,7 +23,7 @@
         android:text="@string/istanza" />
 
     <Button
-        android:id="@+id/Challege"
+        android:id="@+id/challege"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Istanze"

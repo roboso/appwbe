@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 public class MopListaRaid extends ActionBarActivity  {
 	
@@ -37,7 +36,7 @@ public class MopListaRaid extends ActionBarActivity  {
     		startActivity(intent);
     		}
         public void listaterrazza (View Button) {
-    		Intent intent = new Intent(this, MopRaidAssedio.class);
+    		Intent intent = new Intent(this, MopRaidTerrazza.class);
     		startActivity(intent);
     		}
         public void listaregnodeltuono (View Button) {

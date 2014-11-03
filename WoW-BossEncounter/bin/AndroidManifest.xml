@@ -93,6 +93,26 @@
             android:name=".WodRaidFonderia" >
             
         </activity>
+        <activity
+            android:name=".MopRaidSegrete" >
+            
+        </activity>
+        <activity
+            android:name=".MopRaidCuore" >
+            
+        </activity>
+        <activity
+            android:name=".MopRaidTerrazza" >
+            
+        </activity>
+        <activity
+            android:name=".MopRaidTot" >
+            
+        </activity>
+        <activity
+            android:name=".MopRaidAssedio" >
+            
+        </activity>
         
     </application>
 

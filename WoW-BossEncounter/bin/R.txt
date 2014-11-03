@@ -493,7 +493,6 @@ int drawable ic_menu_protettoridelleterno 0x7f0200cd
 int drawable provaassedio 0x7f0200ce
 int drawable sfondomogu 0x7f0200cf
 int drawable tronodeiquattroventi 0x7f0200d0
-int drawable wrat 0x7f0200d1
 int id Challege 0x7f090061
 int id Istanze 0x7f090060
 int id Raid 0x7f09005f
@@ -628,7 +627,7 @@ int layout activity_mop_list_raid 0x7f030019
 int layout activity_wod_list_istanze 0x7f03001a
 int layout activity_wod_list_raid 0x7f03001b
 int layout activity_wod_scelta 0x7f03001c
-int layout activity_wrat_list_raid 0x7f03001d
+int layout activity_wrat_lista_raid 0x7f03001d
 int layout support_simple_spinner_dropdown_item 0x7f03001e
 int menu main 0x7f0c0000
 int string Xeritac 0x7f0a0074

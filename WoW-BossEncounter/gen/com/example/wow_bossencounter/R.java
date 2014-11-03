@@ -1793,7 +1793,6 @@ containing a value of this type.
         public static final int provaassedio=0x7f0200ce;
         public static final int sfondomogu=0x7f0200cf;
         public static final int tronodeiquattroventi=0x7f0200d0;
-        public static final int wrat=0x7f0200d1;
     }
     public static final class id {
         public static final int Challege=0x7f090061;
@@ -1956,7 +1955,7 @@ containing a value of this type.
         public static final int activity_wod_list_istanze=0x7f03001a;
         public static final int activity_wod_list_raid=0x7f03001b;
         public static final int activity_wod_scelta=0x7f03001c;
-        public static final int activity_wrat_list_raid=0x7f03001d;
+        public static final int activity_wrat_lista_raid=0x7f03001d;
         public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {

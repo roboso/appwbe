@@ -85,7 +85,14 @@
             android:name=".WodListaIstanze" >
             
         </activity>
-        
+        <activity
+            android:name=".WodRaidAltomaglio" >
+            
+        </activity>
+        <activity
+            android:name=".WodRaidFonderia" >
+            
+        </activity>
         
     </application>
 

@@ -22,7 +22,7 @@ public class WodScelta extends ActionBarActivity {
         setContentView(R.layout.activity_wod_scelta);
         raid = (Button) this.findViewById(R.id.raid);
         istanze = (Button) this.findViewById(R.id.istanze);
-        challenge = (Button) this.findViewById(R.id.challege); 
+        challenge = (Button) this.findViewById(R.id.challenge); 
     }
 	public void startraidwod (View ImageButton) {
 		Intent intent = new Intent(this, WodtListaRaid.class);

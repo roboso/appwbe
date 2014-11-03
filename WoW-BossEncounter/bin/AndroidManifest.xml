@@ -71,10 +71,6 @@
             android:name=".WodIstaVistacieli" >
             
         </activity>
-        <activity
-            android:name=".WratListaRaid" >
-            
-        </activity>
         
     
         

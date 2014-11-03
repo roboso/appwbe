@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:onClick="startraidwod"
         android:text="@string/raid" />
 
@@ -16,19 +17,19 @@
         android:id="@+id/istanze"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Raid"
+        android:layout_below="@+id/raid"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:onClick="startistanzewod"
         android:text="@string/istanza" />
 
     <Button
-        android:id="@+id/challege"
+        android:id="@+id/challenge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Istanze"
-        android:layout_marginTop="54dp"
-        android:onClick="startchallengewod"
+        android:layout_below="@+id/istanze"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:text="@string/challenge" />
 
 </RelativeLayout>

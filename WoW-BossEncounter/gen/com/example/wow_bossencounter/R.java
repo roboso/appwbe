@@ -2039,6 +2039,7 @@ containing a value of this type.
         public static final int consorti=0x7f0a0030;
         /**  coure della paura 
  cure della paura 
+ cure della paura 
          */
         public static final int cuore=0x7f0a001e;
         public static final int dameferro=0x7f0a0052;
@@ -2095,6 +2096,7 @@ containing a value of this type.
         public static final int megaera=0x7f0a002a;
         /**    segrete di mogushan 
    segrete di mogushan 
+   segrete di mogushan 
          */
         public static final int mvg=0x7f0a0017;
         public static final int nazgrim=0x7f0a003a;
@@ -2120,6 +2122,7 @@ containing a value of this type.
         public static final int ranjit=0x7f0a0078;
         public static final int reggenti=0x7f0a001b;
         /**  regno del tuono 
+regno del tuono 
  regno del tuono 
          */
         public static final int regnotuono=0x7f0a0025;
@@ -2144,6 +2147,7 @@ containing a value of this type.
         public static final int skulloc=0x7f0a0062;
         /**  assedio di orgrimmar 
  assedio di orgrimmar 
+ assedio di orgrimmar 
          */
         public static final int soo=0x7f0a0032;
         public static final int spoglie=0x7f0a003c;
@@ -2151,6 +2155,7 @@ containing a value of this type.
         public static final int tectus=0x7f0a0044;
         public static final int terongor=0x7f0a0058;
         /**  terrazza dell'eterna primavera  
+terrazza dell'eterna primavera
  terrazza dell'eterna primavera  
          */
         public static final int terrazza=0x7f0a0012;

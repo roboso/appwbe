@@ -22,6 +22,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+     
+        <activity
+            android:name=".CataListaRaid" >
+            
+        </activity>
+    
+    <activity
+            android:name=".MopListaRaid" >
+            
+        </activity>
+    
+        <activity
+            android:name=".WodScelta" >
+            
+        </activity>
+    
+        <activity
+            android:name=".wratListaRaid" >
+            
+        </activity>
+        
+        
+    
+        
     </application>
 
 </manifest>

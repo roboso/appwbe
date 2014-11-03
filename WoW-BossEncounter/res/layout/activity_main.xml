@@ -8,9 +8,59 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wow_bossencounter.MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/wrat_guida"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="top"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:onClick="startlistwratraid"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_wrat" />
+
+    <ImageButton
+        android:id="@+id/cata_guida"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:onClick="startlistcataraid"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_cata" />
+    
+            
+    <ImageButton
+        android:id="@+id/mop_guida"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:onClick="startlistmopraid"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_mop" />
+
+    <ImageButton
+        android:id="@+id/wod_guida"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:onClick="startlistwodraid"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_wod" />
+            
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

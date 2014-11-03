@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/Raid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:onClick="startraidwod"
+        android:text="@string/raid" />
+
+    <Button
+        android:id="@+id/Istanze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Raid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="startistanzewod"
+        android:text="@string/istanza" />
+
+    <Button
+        android:id="@+id/Challege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Istanze"
+        android:layout_marginTop="54dp"
+        android:onClick="startchallengewod"
+        android:text="@string/challenge" />
+
+</RelativeLayout>

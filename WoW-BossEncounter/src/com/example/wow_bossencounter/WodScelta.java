@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 public class WodScelta extends ActionBarActivity {
 	
@@ -25,11 +24,15 @@ public class WodScelta extends ActionBarActivity {
         challenge = (Button) this.findViewById(R.id.challenge); 
     }
 	public void startraidwod (View ImageButton) {
-		Intent intent = new Intent(this, WodtListaRaid.class);
+		Intent intent = new Intent(this, WodListaRaid.class);
 		startActivity(intent);
 		}
 	public void startistanzewod (View ImageButton) {
-		Intent intent = new Intent(this, wodListaIstanze.class);
+		Intent intent = new Intent(this, WodListaIstanze.class);
 		startActivity(intent);
+}
+	public void startlchallengewod (View ImageButton) {
+		Intent intent = new Intent(this, WodListaChallenge.class);
+		startActivity(intent);	
 }
 	}

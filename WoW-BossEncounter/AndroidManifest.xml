@@ -32,7 +32,12 @@
             android:name=".MopListaRaid" >
             
         </activity>
-    
+            
+        <activity
+            android:name=".WodIstaAuchindoun" >
+            
+        </activity>
+        
         <activity
             android:name=".WodScelta" >
             
@@ -43,14 +48,15 @@
             
         </activity>
         
+         <activity
+            android:name=".WodIstaDarsena" >
+            
+        </activity>
         <activity
             android:name=".WodIstaRoccianerasuperiori" >
             
         </activity>
-        <activity
-            android:name=".WodIstaDarsena" >
-            
-        </activity>
+        
         <activity
             android:name=".WodIstaMagliorosso" >
             
@@ -71,8 +77,15 @@
             android:name=".WodIstaVistacieli" >
             
         </activity>
+        <activity
+            android:name=".WodListaRaid" >
+            
+        </activity>
+        <activity
+            android:name=".WodListaIstanze" >
+            
+        </activity>
         
-    
         
     </application>
 

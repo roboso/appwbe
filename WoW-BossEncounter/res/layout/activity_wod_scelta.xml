@@ -30,6 +30,7 @@
         android:layout_below="@+id/istanze"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:onClick="startlchallengewod"
         android:text="@string/challenge" />
 
 </RelativeLayout>
